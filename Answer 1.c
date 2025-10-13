@@ -6,7 +6,7 @@ Take an array of 12 employee IDs. Write a program that checks if a given employe
 
 int main(){
 	
-	int total_employees = 5;
+	int total_employees = 12;
 	int EmployeeID[total_employees];
 	int employee;
 	int check_ID;
@@ -45,3 +45,4 @@ int main(){
 	
 	return 0;
 }
+
