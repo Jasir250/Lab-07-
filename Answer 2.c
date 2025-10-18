@@ -21,10 +21,10 @@ int main() {
 	}
 	
 	
-	average = total_marks / total_students;
+	average = (float) total_marks / total_students;
 	printf("The average marks are: %.2f", average);
-	
 	
 	
 	return 0;
 }
+
