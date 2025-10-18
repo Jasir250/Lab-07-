@@ -17,9 +17,8 @@ int main() {
 
     printf("Enter a string: ");
     scanf(" %s", &user_text);
-  
 
-
+    // counting the amount of digits entered
     while (user_text[i] != '\0')
     {
         if (user_text[i] >= '0' &&  user_text[i] <= '9')
@@ -29,7 +28,8 @@ int main() {
         
         i++;
     }
-    
+
+    // storing the digits in an array
     int num_arr[numbers];
     i=0;
     numbers = 0;
@@ -43,15 +43,12 @@ int main() {
         i++;
     }
 
+    //Finding the sum
     for (int n = 0; n < numbers; n++ )
     {
-        sum += num_arr[n];
-        
+        sum += num_arr[n];     
     }
-
-    
     printf("The sum of the numbers entered is: %d", sum);
-
-
+    
     return 0;
 }
